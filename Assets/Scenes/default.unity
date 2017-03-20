@@ -182,7 +182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particle: {fileID: 1854865926608468, guid: 06a32fce2e38058439977e2f1f69abc4, type: 2}
-  numberOfParticles: 1000
+  numberOfParticles: 500
 --- !u!4 &523533514
 Transform:
   m_ObjectHideFlags: 0

@@ -38,7 +38,7 @@ Transform:
   m_GameObject: {fileID: 1854865926608468}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -50,13 +50,13 @@ MeshRenderer:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1854865926608468}
   m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 5c94d622f494a944f92401f54dc2b57e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -92,12 +92,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8df8c580c96e19a4982956404a488045, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_maxRadius: 3
+  m_maxRadius: 16
   m_step: 0.05
   m_QuantumNumberN: 2
   m_QuantumNumberL: 1
   m_QuantumNumberM: 0
+  m_maxWavefunction: 2.9
+  m_minWavefunction: 0.9
   Output_wavefunction: 0
+  Output_wavefunctionAngle: 0
 --- !u!135 &135714578546980762
 SphereCollider:
   m_ObjectHideFlags: 1
