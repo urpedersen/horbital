@@ -181,7 +181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6115495e010435419b9370594ac8ad6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particle: {fileID: 1265174978408124, guid: 7c687a1f1dc01f34fbb7f43e0b06b71c, type: 2}
+  particle: {fileID: 1854865926608468, guid: 06a32fce2e38058439977e2f1f69abc4, type: 2}
   numberOfParticles: 1000
 --- !u!4 &523533514
 Transform:
