@@ -38,7 +38,7 @@ Transform:
   m_GameObject: {fileID: 1265174978408124}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -92,11 +92,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8df8c580c96e19a4982956404a488045, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_maxRadius: 1
+  m_maxRadius: 3
   m_step: 0.06
   m_QuantumNumberN: 2
   m_QuantumNumberL: 0
   m_QuantumNumberM: 0
+  Output_wavefunction: 0
 --- !u!135 &135428102526943728
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -105,7 +106,7 @@ SphereCollider:
   m_GameObject: {fileID: 1265174978408124}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
