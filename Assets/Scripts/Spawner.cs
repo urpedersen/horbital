@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Orbital : MonoBehaviour {
+public class Spawner : MonoBehaviour {
 
     [SerializeField]
     private GameObject particle;
